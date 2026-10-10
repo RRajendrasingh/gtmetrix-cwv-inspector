@@ -1,0 +1,44 @@
+{
+  "name": "gtmetrix-cwv-inspector",
+  "version": "1.0.0",
+  "description": "Ultra-fast CLI & telemetry inspector for Google Core Web Vitals (LCP, INP, CLS, TTFB) and 28-day CrUX field benchmarks.",
+  "main": "src/index.js",
+  "bin": {
+    "gtmetrix-cwv": "./bin/cli.js",
+    "cwv-inspect": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "node ./bin/cli.js https://gtmetrix.in"
+  },
+  "keywords": [
+    "core-web-vitals",
+    "web-performance",
+    "page-speed",
+    "ttfb",
+    "lcp",
+    "inp",
+    "cls",
+    "lighthouse",
+    "crux",
+    "seo-audit",
+    "gtmetrix"
+  ],
+  "author": {
+    "name": "Rajendra Singh Rathore",
+    "url": "https://gtmetrix.in/author/rajendra"
+  },
+  "homepage": "https://gtmetrix.in",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RRajendrasingh/gtmetrix-cwv-inspector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RRajendrasingh/gtmetrix-cwv-inspector/issues",
+    "email": "seo@gtmetrix.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
